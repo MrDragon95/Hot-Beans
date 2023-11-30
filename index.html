@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="Description" content="The best web developers in the UK">
+		<meta name="Author" content="Austin Welsh-Graham">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Hot Beans Web</title>
+		<link rel="icon" type="image/xicon" href="../ASSETS/GENERAL/favicon.ico">
+		
+		<link rel="stylesheet" href="../CSS/stylesheet.css">
+		<link rel="stylesheet" href="../ASSETS/fontawesome-free-6.4.2-web/css/all.css">
+		<script async language="javascript" src="../JS/scripts.js"></script>
+		<script src="../JS/jquery-3.4.1.js"></script>
+		
+		<div class="navigation" id="navigation">
+			<img class="logo" src="../ASSETS/GENERAL/logoName.png" alt="Hot Beans Logo">
+			<a href="applyNow.html">Apply Now</a>
+			<a href="courseLinks.html">Course Links</a>
+			<a href="jobSpecification.html">Job Specification</a>
+			<a href="meetTheTeam.html">Meet The Team</a>
+			<a class="active" href="index.html">Who We Are</a>
+			<a href="javascript:void(0);" class="icon" onClick="navigationFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		
+	</head>
+
+	<body>
+		
+		<div class="header"></div>
+		
+		<div class="body">
+			<div class="title">
+				Who We Are
+			</div>
+			<div class="text">
+				Hot Beans Web is a world leading web development company initially started late 1995 etc.,
+			</div>
+		</div>
+		
+		<div class="infoCards">
+			<div class="row">
+  				<div class="column">
+    				<div class="card">
+      					<img src="img1.jpg" alt="img1" style="width:100%">
+      					<div class="container">
+       						<h2>Title</h2>
+        					<p>Description</p>
+      					</div>
+    				</div>
+  				</div>
+
+  				<div class="column">
+    				<div class="card">
+      					<img src="img2.jpg" alt="img2" style="width:100%">
+      					<div class="container">
+							<h2>Title</h2>
+							<p>Description</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+						<img src="img3.jpg" alt="img3" style="width:100%">
+						<div class="container">
+							<h2>Title</h2>
+							<p>Description</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="contactUs">
+			<div class="formContainer">
+				<div class="title">
+					Contact Us
+					<div class="text">
+						If you have any questions that you want to ask before applying, ask them in the form below.
+					</div>
+					<form id="contactUS">
+						<label for="firstName" style="font-size: 25px; float: left;">First Name</label>
+						<input type="text" id="firstName" name="firstName" placeholder="Your first name...">
+						<label for="lastName" style="font-size: 25px; float: left;">Last Name</label>
+						<input type="text" id="lastName" name="lastName" placeholder="Your last name...">
+						<label for="email" style="font-size: 25px; float: left;">Email</label>
+						<input type="text" id="email" name="email" placeholder="Your email...">
+						<label for="message" style="font-size: 25px; float: left;">Message</label>
+						<textarea id="message" name="message" placeholder="Your message..." style="height: 200px; font-family: Segoe UI Light;"></textarea>
+					</form>
+					<button class="submit" onclick="contactFunction()">Submit</button>
+				</div>
+			</div>
+		</div>
+		
+	</body>	
+	
+	<footer class="title">
+		<i class="fa fa-copyright">All Rights Reserved Hot Beans Web</i>
+	</footer>
+	
+</html>
